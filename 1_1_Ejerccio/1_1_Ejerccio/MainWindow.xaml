@@ -8,7 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock>Primer Comentario</TextBlock>
-        <Button Content="Aceptar" Background="Crimson" Width="150" Height="100"/>
+        <Button Background="Crimson" Width="150" Height="200">
+            <StackPanel Orientation="Horizontal">
+                <Image Source="/Assets/DJ.jpg"/>
+                <TextBlock Text="Hola"/>
+            </StackPanel>
+        </Button>
 
     </Grid>
 </Window>
